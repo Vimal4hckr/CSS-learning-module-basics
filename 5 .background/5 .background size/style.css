@@ -10,6 +10,6 @@ contain     - Fits the whole image inside the element.
 
 body{
     background-image: url("background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat-y;
+    background-size: contains;
 }

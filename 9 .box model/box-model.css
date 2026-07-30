@@ -13,7 +13,7 @@ body{
     height:100px;                /* Content Height */
     padding:20px;                /* Space inside border */
     border:5px solid rgb(0, 0, 0);       /* Border */
-    margin:30px;                 /* Space outside border */
+    margin:20px;                 /* Space outside border */
     background:lightblue;
     text-align:center;
     line-height:100px;

@@ -16,5 +16,5 @@ right bottom
 body{
     background-image: url("background.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position:right top; ;
 }

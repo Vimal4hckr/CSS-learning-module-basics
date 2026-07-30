@@ -1,13 +1,24 @@
-/* You can use more than one background image */
 body{
-    background-image: url("flower.png"), url("background.jpg");
-    background-repeat: no-repeat, no-repeat;
-    background-position: left top, right bottom;
-    background-size: 150px 150px, cover;
-    background-attachment: fixed, fixed;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
 }
-h1{
-    color: white;
-    text-align: center;
-    margin-top: 200px;
+.box{
+    width: 800px;
+    height: 500px;
+    margin: 40px auto;
+    border: 2px solid black;
+    /* Two background images */
+    background-image: url("bg1.jpg"), url("bg2.png");
+    /* Position of each image */
+    background-position: left top, right bottom;
+    /* Size of each image */
+    background-size: 200px 200px, 250px 250px;
+    /* Don't repeat */
+    background-repeat: no-repeat, no-repeat;
+    /* Optional background color */
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

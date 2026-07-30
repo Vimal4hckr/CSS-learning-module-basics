@@ -11,5 +11,7 @@ no-repeat   - Shows the image only once.
 */
 body{
     background-image: url("background.jpg");
-    background-repeat: repeat;
+    background-repeat:no-repeat;
+    background-size: 100%;
+   
 }

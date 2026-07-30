@@ -8,11 +8,11 @@ local  - Background scrolls with the element.
 */
 body{
     background-image: url("background.jpg");
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: local;
 }
 h1{
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
