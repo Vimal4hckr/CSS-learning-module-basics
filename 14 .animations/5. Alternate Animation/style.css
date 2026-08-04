@@ -1,7 +1,25 @@
-.box{
-    animation:moveBox 2s infinite alternate;
+/*| Value           | Description                      |
+| ----------------- | -------------------------------- |
+| normal            | Plays forward (default)          |
+| reverse           | Plays backward                   |
+| alternate         | Forward → Backward → Forward...  |
+| alternate-reverse | Backward → Forward → Backward... |
+*/
+
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
-@keyframes moveBox{
+.box{
+    width:100px;
+    height:100px;
+    background:royalblue;
+    animation:move 2s linear infinite alternate;
+}
+@keyframes move{
     from{
         transform:translateX(0);
     }

@@ -10,7 +10,7 @@ body{
     height:100px;
     background:red;
     animation-name:colorChange;
-    animation-duration:3s;
+    animation-duration:7s;
 }
 
 @keyframes colorChange{
